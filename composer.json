@@ -1,0 +1,22 @@
+{
+  "name": "crazydanro/hero-test",
+  "authors": [
+    {
+      "name": "Dan-Gabriel Vaduva",
+      "email": "danvatwork@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.5@dev"
+  },
+  "autoload":{
+    "psr-4":{
+      "src\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests"
+    }
+  }
+}
